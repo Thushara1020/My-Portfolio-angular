@@ -5,6 +5,12 @@
   padding: 15px 0;
   transition: all 0.3s ease-in-out;
 }
+.navbar-logo {
+  height: 60px;
+  width: auto;
+  margin-right: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
 
 
 .navbar-brand {

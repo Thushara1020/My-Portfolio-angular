@@ -6,33 +6,33 @@
   display: flex;
   align-items: center;
 }
+.typed{
+  font-size: 30px;
+  color: #0563bb; /* ඔයාට කැමති පාටක් */
+}
 
-/* Greeting (Hello, I'm...) */
 .greeting {
   display: block;
   font-size: 1.2rem;
   font-weight: 600;
-  color: #4b6cb7; /* Navbar එකේ නිල් පාට */
+  color: #4b6cb7; 
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-/* ප්‍රධාන නම (H1) */
 h1 {
   font-size: 3.5rem;
   font-weight: 800;
-  color: #182848; /* තද නිල් පාට */
+  color: #182848; 
   margin-bottom: 10px;
   line-height: 1.2;
 }
 
-/* නමේ වාසගම Highlight කිරීම */
 .highlight {
   color: #4b6cb7;
 }
 
-/* Role (Web Developer) */
 .role {
   font-size: 1.8rem;
   font-weight: 600;
@@ -40,7 +40,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* විස්තරය (Paragraph) */
 .description {
   font-size: 1.1rem;
   color: #666;
@@ -49,7 +48,6 @@ h1 {
   max-width: 90%;
 }
 
-/* Buttons */
 .hero-buttons {
   margin-bottom: 30px;
   display: flex;
@@ -58,7 +56,7 @@ h1 {
 
 .btn-hire {
   padding: 12px 30px;
-  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); /* Navbar එකේ Gradient එකමයි */
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); 
   color: white;
   border: none;
   border-radius: 50px;
@@ -86,7 +84,6 @@ h1 {
   color: white;
 }
 
-/* Social Media Icons */
 .social-links a {
   display: inline-flex;
   align-items: center;
@@ -125,15 +122,28 @@ h1 {
   animation: float 6s ease-in-out infinite;
 
 }
+.lead {
+  font-size: 2rem; 
+  font-weight: 700; 
+  color: #182848; 
+  margin-bottom: 20px; 
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
 
-/* පින්තූරය උඩ පහළ පාවෙන Animation එක */
 @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
   100% { transform: translateY(0px); }
 }
 
-/* Mobile View Adjustments */
+@media (max-width: 768px) {
+  .lead {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 991px) {
   .hero-section {
     text-align: center;
@@ -155,4 +165,5 @@ h1 {
   .social-links {
     justify-content: center;
   }
+  
 }

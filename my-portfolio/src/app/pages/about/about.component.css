@@ -1,41 +1,39 @@
-/* --- About Section Light Theme --- */
 
-/* මුළු Section එකම Hero එකේ පසුබිම් පාටට (#f8f9fa) සමාන කළා */
 .about-section {
   background-color: #f8f9fa; 
-  color: #333333; /* අකුරු කළු/අළු පාට */
+  color: #333333; 
   padding: 80px 0;
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* වම් පැත්තේ Profile Card එක - දැන් සුදු පාටයි */
+
 .profile-card {
-  background-color: #ffffff; /* සුදු පසුබිම */
+  background-color: #ffffff;
   padding: 40px 30px;
   border-radius: 30px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* මෘදු සෙවනැල්ලක් */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
   border: 1px solid #e0e0e0;
 }
 
-/* පින්තූරය - Hero එකේ වගේම Gold Border එකක් දැම්මා */
+
 .profile-img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid rgb(255, 217, 0); /* Hero එකේ Gold පාට */
+  border: 4px solid rgb(255, 217, 0);
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* Contact Boxes - ලා අළු පාට පසුබිමක් */
+
 .contact-box {
-  background-color: #f1f3f5; /* ලා අළු */
+  background-color: #f1f3f5;
   padding: 15px;
   border-radius: 12px;
   margin-bottom: 15px;
   display: flex;
   align-items: center;
-  color: #182848; /* තද නිල් අකුරු */
+  color: #182848; 
   font-size: 0.95rem;
   transition: all 0.3s ease;
 }
@@ -48,13 +46,13 @@
 .contact-box i {
   font-size: 1.2rem;
   margin-right: 15px;
-  color: #4b6cb7; /* Navbar එකේ නිල් පාට */
+  color: #4b6cb7; 
 }
 
-/* දකුණු පැත්තේ Styles */
+
 .badge-title {
-  background-color: #4b6cb7; /* නිල් පසුබිම */
-  color: #ffffff; /* සුදු අකුරු */
+  background-color: #4b6cb7; 
+  color: #ffffff; 
   padding: 8px 20px;
   border-radius: 50px;
   font-weight: 600;
@@ -67,18 +65,16 @@
   font-weight: 800;
   font-size: 2.5rem;
   line-height: 1.2;
-  color: #182848; /* Hero එකේ තද නිල් පාට */
+  color: #182848; 
 }
 
-/* විස්තරය */
 .description {
-  color: #666666; /* සාමාන්‍ය අළු පාට */
+  color: #666666; 
   line-height: 1.7;
 }
 
-/* Stats (15+, 1+ etc.) */
 .stats-row {
-  border-top: 1px solid #dee2e6; /* ලා පාට ඉරි */
+  border-top: 1px solid #dee2e6; 
   border-bottom: 1px solid #dee2e6;
   padding: 30px 0;
 }
@@ -87,16 +83,15 @@
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 5px;
-  color: #182848; /* තද නිල් */
+  color: #182848; 
 }
 
 .stat-label {
-  color: #4b6cb7; /* නිල් පාට */
+  color: #4b6cb7; 
   font-size: 0.9rem;
   font-weight: 600;
 }
 
-/* Details Grid Headers */
 small.text-muted {
   color: #888 !important;
   text-transform: uppercase;
@@ -106,17 +101,16 @@ small.text-muted {
 }
 
 h6.text-white {
-  color: #182848 !important; /* HTML එකේ text-white තිබ්බට CSS වලින් පාට මාරු කළා */
+  color: #182848 !important; 
   font-weight: 600;
   margin-top: 5px;
 }
 
-/* Buttons - Hero එකේ පාට වලට සමාන කළා */
 .btn-light-custom {
-  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); /* Gradient Blue */
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
   color: #ffffff;
   padding: 12px 30px;
-  border-radius: 50px; /* රවුම් බොත්තම් */
+  border-radius: 50px; 
   font-weight: 600;
   border: none;
   transition: all 0.3s;
@@ -131,7 +125,7 @@ h6.text-white {
 
 .btn-dark-outline {
   background-color: transparent;
-  color: #182848; /* තද නිල් */
+  color: #182848; 
   border: 2px solid #182848;
   padding: 12px 30px;
   border-radius: 50px;
@@ -144,7 +138,7 @@ h6.text-white {
   color: #ffffff;
 }
 
-/* Mobile View Adjustments */
+
 @media (max-width: 991px) {
   .main-title {
     font-size: 2rem;
