@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common'; 
 import { NavbarComponent } from "../../component/navbar/navbar.component";
+import { FooterComponent } from "../../component/footer/footer.component";
 
 
 interface Project {
@@ -13,7 +14,7 @@ interface Project {
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [NavbarComponent, CommonModule], 
+  imports: [NavbarComponent, CommonModule, FooterComponent], 
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.css'
 })
