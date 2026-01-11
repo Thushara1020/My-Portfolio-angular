@@ -1,10 +1,11 @@
 import { Component, AfterViewInit, ViewChild, ElementRef, OnDestroy } from '@angular/core';
 import { NavbarComponent } from "../../component/navbar/navbar.component";
 import Typed from 'typed.js';
+import { FooterComponent } from "../../component/footer/footer.component";
 
 @Component({
   selector: 'app-home',
-  imports: [NavbarComponent],
+  imports: [NavbarComponent, FooterComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
